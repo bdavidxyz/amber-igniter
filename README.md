@@ -2,3 +2,4 @@
 <div align="center">A jekyll theme, copycat of emberigniter.com</div>
 
 
+[How to build](http://bdavidxyz.github.io/impatient-jekyll/)
