@@ -1,0 +1,22 @@
+# Welcome to Impatient-Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically.
+
+# Site settings
+title: Amber Igniter
+email: bdavidxyz@gmail.com
+description: > # this means to ignore newlines until "twitter_username:"
+  A perfect jekyll theme to blog and collect email
+twitter_username: bdavidxyz
+github_username:  bdavidxyz
+
+# Build settings
+markdown: kramdown
+
+# Exclude nodes artifacts from build
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js

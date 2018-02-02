@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<div class='c-jumbo'>
+  <article >
+    <div class="c-wrapper c-wrapper--jumbo">
+      <h1 class="c-jumbotitle">
+        <div>Maybe it could be the theme</div>
+        <div>that you needed</div>
+      </h1>
+      <p class="c-jumbotext c-jumbotext--first">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.  
+      </p>
+      <p class="c-jumbotext">
+        Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+      </p>
+      <p class="c-jumbotext">
+        <strong>What about a question here?</strong> 
+      </p>
+      <p class="c-jumbotext">
+        Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur.
+      </p>
+      <p class="c-jumbotext">
+         Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <p class="c-jumbotext">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <p class="c-jumbotext">
+        You can contact me via <a class="" href="mailto:bdavidxyz@gmail.com">e-mail</a>, or through the chatbox, or leave me an email below.
+      </p>
+      <form action="https://formspree.io/{{site.email}}" method="POST" id="contact" name="contact" class="c-contact">
+        <div class="c-contact__block">
+          <label for="name"  class="c-contact__formlabel c-jumbotext">Name</label>
+          <input type="text" id="name" name="name" class="c-contact__forminput" minlength="2">
+        </div>
+
+        <div class="c-contact__block">
+          <label for="email" class="c-contact__formlabel c-jumbotext">E–mail</label>
+          <input type="email" id="email" name="email" class="c-contact__forminput">
+        </div>
+
+        <div class="c-contact__block">
+          <label for="message"  class="c-contact__formlabel c-jumbotext">Message</label>
+          <textarea id="message" name="message" cols="50" rows="10" class="c-contact__forminput"></textarea>
+        </div>
+
+        <div class="c-contact__block">
+          <label class="c-contact__formlabel">&nbsp;</label>
+          <button 
+          type="submit" 
+          id="send" 
+          name="send" 
+          class="c-contact__forminput c-contact__forminput--submit">
+          Send the message
+        </button>
+      </div>
+    </form>
+    <div class="c-notice">
+      <p class="c-notice__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat <a href='{{ "/articles/#newsletter" | prepend: site.baseurl}}' class="c-notice__link"><strong>mailing-list</strong></a>, or use the <a href='{{ "/feed.xml" | prepend: site.baseurl}}' class="c-notice__link">RSS feed</a>.</p>
+      <p class="c-notice__paragraph">You can read all articles <a href='{{ "/articles/#c-newsletter" | prepend: site.baseurl}}' class="c-notice__link">on this page.</a> </p>
+    </div>
+  </div>
+</article>
+</div>
+
