@@ -4,10 +4,10 @@
     <title>Amber Igniter</title>
     <description>A perfect jekyll theme to blog and collect email
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 02 Feb 2018 21:52:38 +0100</pubDate>
-    <lastBuildDate>Fri, 02 Feb 2018 21:52:38 +0100</lastBuildDate>
+    <link>/amber-igniter/</link>
+    <atom:link href="/amber-igniter/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 02 Feb 2018 21:56:03 +0100</pubDate>
+    <lastBuildDate>Fri, 02 Feb 2018 21:56:03 +0100</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -40,8 +40,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
 
 </description>
         <pubDate>Tue, 04 Jul 2017 13:42:26 +0200</pubDate>
-        <link>/faq/</link>
-        <guid isPermaLink="true">/faq/</guid>
+        <link>/amber-igniter/faq/</link>
+        <guid isPermaLink="true">/amber-igniter/faq/</guid>
         
         
         <category>service</category>
@@ -80,8 +80,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 </description>
         <pubDate>Tue, 04 Jul 2017 12:42:26 +0200</pubDate>
-        <link>/service/</link>
-        <guid isPermaLink="true">/service/</guid>
+        <link>/amber-igniter/service/</link>
+        <guid isPermaLink="true">/amber-igniter/service/</guid>
         
         
         <category>service</category>
