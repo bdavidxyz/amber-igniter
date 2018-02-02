@@ -15,8 +15,6 @@ github_username:  bdavidxyz
 # Build settings
 markdown: kramdown
 
-baseurl: /amber-igniter
-
 # Exclude nodes artifacts from build
 exclude:
   - package.json
