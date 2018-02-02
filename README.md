@@ -1,4 +1,4 @@
-<h1 align="center">Freelance-Igniter</h1>
-<div align="center">Help people to become a freelancer</div>
+<h1 align="center">Amber-Igniter</h1>
+<div align="center">A jekyll theme, copycat of emberigniter.com</div>
 
 
